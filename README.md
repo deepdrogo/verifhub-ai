@@ -2,7 +2,7 @@
 
 <img src="assets/banner.svg" width="100%" alt="VerifHub AI — Verify every email & phone — before it costs you."/>
 
-<br/><br/>
+<br/>
 
 <img src="assets/icon.png" width="96" alt="VerifHub AI icon"/>
 
