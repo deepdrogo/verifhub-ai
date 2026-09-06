@@ -14,6 +14,7 @@
 <img src="https://img.shields.io/badge/Status-Live-ffffff?style=for-the-badge&labelColor=0d0d0d" alt="Status: Live"/>
 <a href="https://verifhub.ai/"><img src="https://img.shields.io/badge/Website-verifhub.ai-1a1a1a?style=for-the-badge&labelColor=0d0d0d&logo=googlechrome&logoColor=white" alt="Website"/></a>
 <a href="https://t.me/drogoz"><img src="https://img.shields.io/badge/Telegram-%40drogoz-1a1a1a?style=for-the-badge&labelColor=0d0d0d&logo=telegram&logoColor=white" alt="Telegram"/></a>
+
 <a href="https://drogoz.network"><img src="https://img.shields.io/badge/Part%20of-Drogoz%20Network-c9a855?style=for-the-badge&labelColor=000000" alt="Part of Drogoz Network"/></a>
 
 <br/>
@@ -172,7 +173,7 @@ See VerifHub AI in action before you pay — our agent gets in touch and walks y
 |---|---|
 | 🌐 **Website** | [verifhub.ai](https://verifhub.ai/) |
 | 📄 **Details page** | [drogoz.network/services/VerifHub/](https://drogoz.network/services/VerifHub/) |
-| ✈️ **Telegram group** | [@drogoz](https://t.me/drogoz) |
+| ✈️ **Telegram** | [@drogoz](https://t.me/drogoz) |
 | 🏛️ **Drogoz Network** | [drogoz.network](https://drogoz.network) · [Services](https://drogoz.network/#services) · [Packages](https://drogoz.network/#packages) · [Pricing](https://drogoz.network/pricing/) · [Presentation](https://drogoz.network/presentation/) |
 | ⚖️ **Legal** | [Terms of Service](https://drogoz.network/legal/terms-of-service/) · [Acceptable Use](https://drogoz.network/legal/acceptable-use-policy/) · [Privacy](https://drogoz.network/legal/privacy-policy/) · [Refunds](https://drogoz.network/legal/refund-policy/) · [Disclaimer](https://drogoz.network/legal/disclaimer/) · [Compliance](https://drogoz.network/legal/compliance-policy/) |
 | 🐙 **GitHub** | [deepdrogo](https://github.com/deepdrogo/deepdrogo) |
@@ -193,7 +194,7 @@ See VerifHub AI in action before you pay — our agent gets in touch and walks y
   <a href="https://t.me/drogoz"><img src="https://img.shields.io/badge/%40drogoz-1a1a1a?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"/></a>
   <a href="mailto:hello@drogoz.network"><img src="https://img.shields.io/badge/hello%40drogoz.network-1a1a1a?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
   <br/><br/>
-  <sub><b>More from the network:</b> <a href="https://github.com/deepdrogo/drog-ai">Drog AI</a> · <a href="https://github.com/deepdrogo/mymask-ai">MyMask AI</a> · <a href="https://github.com/deepdrogo/replika">Replika</a> · <a href="https://github.com/deepdrogo/lidaro-ai">Lidaro AI</a> · <a href="https://github.com/deepdrogo/imperatori">IMPERATORI</a> · <a href="https://github.com/deepdrogo/zoi-talks">ZOI Talks</a> · <a href="https://github.com/deepdrogo/riderswap-io">RiderSwap</a> · <a href="https://github.com/deepdrogo/hyperblast-ai">HyperBlast AI</a> · <a href="https://github.com/deepdrogo/vadira-net">Vadira</a> · <a href="https://github.com/deepdrogo/skriper-io">Skriper</a> · <a href="https://github.com/deepdrogo/mytasker">MyTasker</a></sub>
+  <sub><b>More from the network:</b> <a href="https://github.com/deepdrogo/drog-ai">Drog AI</a> · <a href="https://github.com/deepdrogo/mymask-ai">MyMask AI</a> · <a href="https://github.com/deepdrogo/replika">Replika</a> · <a href="https://github.com/deepdrogo/lidaro-ai">Lidaro AI</a> · <a href="https://github.com/deepdrogo/imperatori">IMPERATORI</a> · <a href="https://github.com/deepdrogo/zoi-talks">ZOI Talks</a> · <a href="https://github.com/deepdrogo/riderswap-io">RiderSwap</a> · <a href="https://github.com/deepdrogo/hyperblast-ai">HyperBlast AI</a> · <a href="https://github.com/deepdrogo/vadira-net">Vadira</a> · <a href="https://github.com/deepdrogo/skriper-io">Skriper</a> · <a href="https://github.com/deepdrogo/mytasker">MyTasker</a> · <a href="https://github.com/deepdrogo/mamont">Mamont</a></sub>
   <br/><br/>
   <sub>© 2026 Drogoz Network. All rights reserved. Provided strictly for lawful use — see the <a href="https://drogoz.network/legal/">Legal Center</a>. Each user is solely responsible for how they use the software.</sub>
 </div>
