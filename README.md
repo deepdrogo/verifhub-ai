@@ -10,7 +10,7 @@
 
 ### Know which contacts are actually real — before you send.
 
-<img src="https://img.shields.io/badge/Category-Verify-c9a855?style=for-the-badge&labelColor=0d0d0d" alt="Category: Verify"/>
+<img src="https://img.shields.io/badge/Category-Verify-F79E19?style=for-the-badge&labelColor=0d0d0d" alt="Category: Verify"/>
 <img src="https://img.shields.io/badge/Status-Live-ffffff?style=for-the-badge&labelColor=0d0d0d" alt="Status: Live"/>
 <a href="https://verifhub.ai/"><img src="https://img.shields.io/badge/Website-verifhub.ai-1a1a1a?style=for-the-badge&labelColor=0d0d0d&logo=googlechrome&logoColor=white" alt="Website"/></a>
 <a href="https://t.me/drogoz"><img src="https://img.shields.io/badge/Telegram-%40drogoz-1a1a1a?style=for-the-badge&labelColor=0d0d0d&logo=telegram&logoColor=white" alt="Telegram"/></a>
@@ -19,7 +19,7 @@
 
 <br/>
 
-<a href="https://verifhub.ai/"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20%20Website-ffffff?style=for-the-badge" alt="Website"/></a> <a href="https://drogoz.network/services/VerifHub/"><img src="https://img.shields.io/badge/%F0%9F%93%84%20%20Details%20on%20drogoz.network-1a1a1a?style=for-the-badge" alt="Details"/></a> <a href="https://t.me/drogoz"><img src="https://img.shields.io/badge/%F0%9F%8E%A5%20%20Free%20live%20demonstration-c9a855?style=for-the-badge" alt="Demo"/></a>
+<a href="https://verifhub.ai/"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20%20Website-ffffff?style=for-the-badge" alt="Website"/></a> <a href="https://drogoz.network/services/VerifHub/"><img src="https://img.shields.io/badge/%F0%9F%93%84%20%20Details%20on%20drogoz.network-1a1a1a?style=for-the-badge" alt="Details"/></a> <a href="https://t.me/drogoz"><img src="https://img.shields.io/badge/%F0%9F%8E%A5%20%20Free%20live%20demonstration-F79E19?style=for-the-badge" alt="Demo"/></a>
 
 </div>
 
@@ -153,7 +153,7 @@ Every record comes back with a class and a plain-English hint, so non-technical 
 <table>
 <tr>
 <td width="50%" align="center"><img src="assets/verifhub-hero.png" alt="verifhub.ai — Know which contacts are actually real before you send · 99.2% accuracy · 4,800 records/min · 190+ countries"/><br/><sub>verifhub.ai — Know which contacts are actually real before you send · 99.2% accuracy · 4,800 records/min · 190+ countries</sub></td>
-<td width="50%" align="center"><img src="assets/verifhub-trial.png" alt="Free trial — a live SMTP check of a public role address, showing the real provider verdict (Accept-All · Risky · Deliverable)"/><br/><sub>Free trial — a live SMTP check of a public role address, showing the real provider verdict (Accept-All · Risky · Deliverable)</sub></td>
+<td width="50%" align="center"><img src="assets/verifhub-trial.png" alt="Free trial — one live email check and one live phone check per visitor, no signup, full provider detail"/><br/><sub>Free trial — one live email check and one live phone check per visitor, no signup, full provider detail</sub></td>
 </tr>
 <tr>
 <td width="50%" align="center"><img src="assets/verifhub-features.png" alt="One platform for every contact-quality question — SMTP validation, HLR lookups, breach screening, exports"/><br/><sub>One platform for every contact-quality question — SMTP validation, HLR lookups, breach screening, exports</sub></td>
@@ -172,7 +172,7 @@ Every record comes back with a class and a plain-English hint, so non-technical 
 **From raw list to clean list in four steps**
 
 ```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1a1a1a', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#c9a855', 'lineColor': '#c9a855', 'secondaryColor': '#0d0d0d', 'tertiaryColor': '#0d0d0d', 'clusterBkg': '#0d0d0d', 'clusterBorder': '#404040', 'edgeLabelBackground': '#0d0d0d', 'fontFamily': 'Inter, Segoe UI, sans-serif' } } }%%
+%%{init: {'theme': 'base', 'themeVariables': { 'background': '#F7F7F7', 'primaryColor': '#FFFFFF', 'primaryTextColor': '#1A1A1A', 'primaryBorderColor': '#F79E19', 'lineColor': '#D97B06', 'secondaryColor': '#FFF4E0', 'tertiaryColor': '#F7F7F7', 'clusterBkg': '#FFFFFF', 'clusterBorder': '#E3E3E3', 'edgeLabelBackground': '#FFFFFF', 'textColor': '#1A1A1A', 'fontFamily': 'Inter, Segoe UI, sans-serif' } } }%%
 flowchart LR
     A["1 · Bring your list<br/>paste up to 50 records · or CSV/XLSX with 100k+ rows"] --> B["2 · We interrogate the source"]
     subgraph SRC["Primary sources — no guessing from patterns"]
@@ -234,7 +234,7 @@ VerifHub AI is part of the **Traffic** bundle (−5%) — *Everything for traffi
 **A live demonstration is 100% free on every product.**<br/>
 See VerifHub AI in action before you pay — our agent gets in touch and walks you through a live demonstration. Or try it yourself first: One free email check and one free phone check per visitor — no signup, no card.
 
-<a href="https://t.me/drogoz"><img src="https://img.shields.io/badge/Request%20a%20free%20demonstration%20on%20Telegram-c9a855?style=for-the-badge&logo=telegram&logoColor=black" alt="Request a demonstration"/></a>
+<a href="https://t.me/drogoz"><img src="https://img.shields.io/badge/Request%20a%20free%20demonstration%20on%20Telegram-F79E19?style=for-the-badge&logo=telegram&logoColor=white" alt="Request a demonstration"/></a>
 
 <sub>Registration is handled by our team — get in touch and receive personal access.</sub>
 
