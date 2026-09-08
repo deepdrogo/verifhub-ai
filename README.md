@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="VerifHub AI — Verify every email & phone — before it costs you."/>
+<img src="assets/banner.svg" width="100%" alt="VerifHub AI — Know which contacts are actually real — before you send."/>
 
 <br/>
 
@@ -8,7 +8,7 @@
 
 # VerifHub AI
 
-### Verify every email & phone — before it costs you.
+### Know which contacts are actually real — before you send.
 
 <img src="https://img.shields.io/badge/Category-Verify-c9a855?style=for-the-badge&labelColor=0d0d0d" alt="Category: Verify"/>
 <img src="https://img.shields.io/badge/Status-Live-ffffff?style=for-the-badge&labelColor=0d0d0d" alt="Status: Live"/>
@@ -42,18 +42,20 @@
 
 ## 🧭 Overview
 
-VerifHub AI validates emails and phone numbers in bulk with high accuracy. Clean your lists, cut bounce rates and protect your sender reputation — powered by millions of IPs and thousands of servers worldwide, with 99.9% accuracy and lightning-fast results (under one second per record on average).
+**VerifHub AI talks to the mail server and the mobile carrier directly**, so you get the truth about every address and number — not a guess from a stale database. Emails are validated by opening a real SMTP conversation with the receiving mail server; phone numbers are checked against the carrier's own Home Location Register (HLR). Neither result is inferred from a pattern or a list, which is why accept-all domains and switched-off handsets are reported as exactly that instead of being guessed.
 
-The platform validates contacts, detects activity and improves outreach with real-time intelligence: API handshake verification, phone number and email status checks, live/active contact detection, last-activity tracking and communication-availability checks.
+One platform answers every contact-quality question — **email deliverability, phone reachability and breach exposure** — checked against primary sources and reported in language you can act on. Every job is split into *clean*, *risky* and *invalid* buckets with one-click Excel export per category, so the list is ready for your ESP or dialler the moment it finishes.
 
-Upload CSV or Excel files and verify thousands of records at once with live progress tracking, monitor results on a real-time dashboard, and export full, valid-only or invalid-only results ready to plug back into your tools. Your data stays yours — processed securely and never shared with third parties.
+Bring a list of any size: paste up to 50 records for an instant check, or upload a CSV/XLSX with hundreds of thousands of rows and watch progress, throughput and the running breakdown update live. Billing is **prepaid and per record** — top up with Bitcoin or USDT, pay only when a provider returns a billable answer, and get automatic refunds for unreachable numbers and failed lookups. Balances never expire, and breach screening is included with every verification job.
+
+**Proof, not promises:** most verification tools make you sign up before you learn anything. VerifHub gives every visitor one free email check and one free phone check — run through the exact same pipeline paying customers use — and shows the full provider response. No card, no email, nothing stored against you.
 
 <table>
 <tr>
 <td align="center" width="25%"><b>Category</b><br/><sub>Verify</sub></td>
 <td align="center" width="25%"><b>Status</b><br/><sub>Live</sub></td>
 <td align="center" width="25%"><b>Bundle</b><br/><sub>Traffic (−5%)</sub></td>
-<td align="center" width="25%"><b>Pricing</b><br/><sub>Sign in to see pricing</sub></td>
+<td align="center" width="25%"><b>Pricing</b><br/><sub>Prepaid · per record</sub></td>
 </tr>
 </table>
 
@@ -61,29 +63,86 @@ Upload CSV or Excel files and verify thousands of records at once with live prog
 
 ## ✨ Key features
 
-### 📧 Email verification
+### 📧 SMTP-level email validation
 
-- **Email Status Check** — detect invalid, disposable and risky addresses.
-- **Syntax, MX records and mailbox status** validation.
-- **API Handshake Verification** for real-time results.
+- **Real SMTP conversation** with the receiving mail server — syntax, domain, MX and mailbox checks in one pass.
+- **Catch-all / accept-all detection** — domains that accept every address are flagged separately so you decide what risk to accept.
+- **Disposable, spam-trap and role-account flags** — throwaway providers and known trap addresses never reach your campaign.
+- **11 result classes** — Valid · Accept-all · Disposable · Spam trap · Mailbox disabled · Dead server · No MX record · Invalid syntax · SMTP blocked · Anti-spam · Unknown — each with a plain-English explanation (see [Result classes](#%EF%B8%8F-result-classes)).
 
-### 📱 Phone verification
+### 📱 Live HLR carrier lookups
 
-- **Phone Number Status Check** — number validity, line type, carrier and country for any number worldwide.
-- **Live / Active Contact Detection** and **Active or Inactive Status Monitoring**.
-- **Last Activity Tracking** and **Communication Availability Check**.
+- **Live reachability** — the operator network is queried directly to see whether a handset is switched on and registered right now.
+- **Full provider detail** — country with ISO code, current operator (and the original one if ported), line type, MCC + MNC network code and the number in clean E.164 format.
+- **Porting and roaming detection** — know when the owner moved to another operator or is currently abroad on a foreign network.
+- **Worldwide coverage** — HLR lookups work in 190+ countries; undetermined lookups (no operator answer) are never charged and are free to retry.
 
-### 📦 Bulk processing & exports
+### 🛡️ Breach screening
 
-- **Bulk Processing** — upload CSV or Excel and verify thousands of records at once with live progress tracking.
-- **Real-Time Contact Validation** — fast & accurate verification system.
-- **Flexible Exports** — download full, valid-only or invalid-only results.
+- **Cross-reference your list against an indexed corpus of leaked credentials** — see which addresses appear in known data leaks before you rely on them.
+- **Privacy by design** — inputs are hashed before they touch the index and only salted hashes are stored; raw addresses are never kept.
+- **Included with every verification job**, plus a standalone Breach checker and Breach report in the dashboard.
 
-### 📊 Dashboard & security
+### ⚡ Speed, scale & workflow
 
-- **Real-time Dashboard** — verification statistics, success rates and activity with clear, modern charts.
-- **Private & Secure** — your data is processed securely and never shared with third parties.
-- **Scale** — 100,000-node API network · 99.9% accuracy · <1 s avg per record · 24/7 support.
+- **Quick check** — paste up to 50 emails or phone numbers and get the answer instantly.
+- **Bulk upload** — CSV or XLSX with hundreds of thousands of rows; all your other columns come back untouched.
+- **Results in seconds** — a concurrent worker pool with per-provider rate limiting verifies thousands of records a minute (≈4,800 records/min).
+- **Watch it live** — progress, throughput and the running breakdown update in real time while the batch is still processing.
+- **Exportable breakdowns** — download *safe to send*, *remove these* and *all rows with status* separately, or the full verified file; every job stays in your history as an audit trail.
+
+### 💳 Billing & account
+
+- **Prepaid, per record, no subscription tax** — hold a balance and spend it as you go; balances are non-expiring.
+- **Crypto top-ups** — Bitcoin or USDT: choose the asset and network, send the transfer, submit the transaction hash, balance credited after on-chain confirmation.
+- **Pay only for real answers** — a record is charged only when the provider returns a billable result; unreachable numbers and provider errors are refunded automatically.
+- **Free trial without an account** — one live email check and one live phone check per visitor, straight from the landing page.
+- **Dashboard** — verification workspace with quick check, bulk uploads, job history, live progress, result breakdowns, payment history, light / dark mode and a dedicated manager with 24/7 support.
+
+<img src="assets/divider.svg" width="100%" height="4" alt=""/>
+
+## 📊 By the numbers
+
+<div align="center">
+
+<table><tr><td align="center" width="25%"><h3>99.2%</h3><sub>ACCURACY</sub></td><td align="center" width="25%"><h3>4,800</h3><sub>RECORDS / MINUTE</sub></td><td align="center" width="25%"><h3>190+</h3><sub>COUNTRIES</sub></td><td align="center" width="25%"><h3>11</h3><sub>RESULT CLASSES</sub></td></tr></table>
+
+<sub>No credit card · Pay per verified record · Crypto top-ups · SMTP handshake · HLR carrier ping · Breach screen</sub>
+
+</div>
+
+<img src="assets/divider.svg" width="100%" height="4" alt=""/>
+
+## 🏷️ Result classes
+
+Every record comes back with a class and a plain-English hint, so non-technical users can act on it.
+
+**Email**
+
+| Class | Bucket | Meaning |
+|---|---|---|
+| **Valid** | ✅ Safe | The mailbox exists and accepts mail. |
+| **Accept-all** | ⚠️ Risky | The domain accepts every address, so the mailbox cannot be confirmed. |
+| **Disposable** | ⚠️ Risky | A throwaway address provider. |
+| **Spam trap** | ⚠️ Risky | Known trap address — never send to it. |
+| **Mailbox disabled** | ❌ Invalid | The account exists but is switched off. |
+| **Dead server** | ❌ Invalid | The mail server did not respond. |
+| **No MX record** | ❌ Invalid | The domain cannot receive mail. |
+| **Invalid syntax** | ❌ Invalid | Not a well-formed address. |
+| **SMTP blocked** | ❔ Unknown | The server refused to complete the check. |
+| **Anti-spam** | ❔ Unknown | A filter intercepted the probe. |
+| **Unknown** | ❔ Unknown | No definitive answer from the server. |
+
+**Phone (HLR)**
+
+| Class | Bucket | Meaning |
+|---|---|---|
+| **Connected** | ✅ Live | Live handset, registered on the network right now. |
+| **Absent** | ⚠️ Risky | Real number, but switched off or out of coverage. |
+| **Invalid number** | ❌ Invalid | Not assigned to any subscriber. |
+| **Undetermined** | ❔ Unknown | No operator answered — **not charged**, free to retry. |
+
+**Every phone result also carries:** current operator (and the original one if ported) · country with ISO code · ported flag · roaming flag with the foreign network named · MCC + MNC network code · the number in clean international (E.164) format.
 
 <img src="assets/divider.svg" width="100%" height="4" alt=""/>
 
@@ -93,11 +152,16 @@ Upload CSV or Excel files and verify thousands of records at once with live prog
 
 <table>
 <tr>
-<td width="50%" align="center"><img src="assets/verifhub-site-0.jpg" alt="VerifHub AI — Verify every email & phone"/><br/><sub>VerifHub AI — Verify every email & phone</sub></td>
-<td width="50%" align="center"><img src="assets/verifhub-site-1.jpg" alt="VerifHub AI — Everything you need to clean your data"/><br/><sub>VerifHub AI — Everything you need to clean your data</sub></td>
+<td width="50%" align="center"><img src="assets/verifhub-hero.png" alt="verifhub.ai — Know which contacts are actually real before you send · 99.2% accuracy · 4,800 records/min · 190+ countries"/><br/><sub>verifhub.ai — Know which contacts are actually real before you send · 99.2% accuracy · 4,800 records/min · 190+ countries</sub></td>
+<td width="50%" align="center"><img src="assets/verifhub-trial.png" alt="Free trial — a live SMTP check of a public role address, showing the real provider verdict (Accept-All · Risky · Deliverable)"/><br/><sub>Free trial — a live SMTP check of a public role address, showing the real provider verdict (Accept-All · Risky · Deliverable)</sub></td>
 </tr>
 <tr>
-<td colspan="2" align="center"><img src="assets/verifhub-site-2.jpg" alt="VerifHub AI — How it works"/><br/><sub>VerifHub AI — How it works</sub></td>
+<td width="50%" align="center"><img src="assets/verifhub-features.png" alt="One platform for every contact-quality question — SMTP validation, HLR lookups, breach screening, exports"/><br/><sub>One platform for every contact-quality question — SMTP validation, HLR lookups, breach screening, exports</sub></td>
+<td width="50%" align="center"><img src="assets/verifhub-how.png" alt="From raw list to clean list in four steps"/><br/><sub>From raw list to clean list in four steps</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center"><img src="assets/verifhub-pricing.png" alt="Prepaid, per record — Bitcoin / USDT top-ups, billable results only"/><br/><sub>Prepaid, per record — Bitcoin / USDT top-ups, billable results only</sub></td>
+<td width="50%" align="center"><img src="assets/verifhub-faq.png" alt="Questions, answered — accuracy, data handling, billing, trial, international numbers"/><br/><sub>Questions, answered — accuracy, data handling, billing, trial, international numbers</sub></td>
 </tr>
 </table>
 
@@ -105,21 +169,21 @@ Upload CSV or Excel files and verify thousands of records at once with live prog
 
 ## ⚙️ How it works
 
-**From upload to clean data in four steps**
+**From raw list to clean list in four steps**
 
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1a1a1a', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#c9a855', 'lineColor': '#c9a855', 'secondaryColor': '#0d0d0d', 'tertiaryColor': '#0d0d0d', 'clusterBkg': '#0d0d0d', 'clusterBorder': '#404040', 'edgeLabelBackground': '#0d0d0d', 'fontFamily': 'Inter, Segoe UI, sans-serif' } } }%%
 flowchart LR
-    A["1 · Upload<br/>CSV or Excel"] --> B["2 · Verify<br/>every record in real time"]
-    B --> C["3 · Review<br/>results & stats on your dashboard"]
-    C --> D["4 · Export<br/>full · valid-only · invalid-only"]
-    subgraph Net["100,000-node API network"]
+    A["1 · Bring your list<br/>paste up to 50 records · or CSV/XLSX with 100k+ rows"] --> B["2 · We interrogate the source"]
+    subgraph SRC["Primary sources — no guessing from patterns"]
         direction LR
-        E["Email<br/>syntax · MX · mailbox · disposable"] 
-        P["Phone<br/>validity · line type · carrier · country"]
-        L["Activity<br/>live / active · last activity · availability"]
+        E["📧 Email<br/>MX lookup → real SMTP conversation<br/>catch-all · disposable · spam-trap · role flags"]
+        P["📱 Phone<br/>live HLR query to the carrier<br/>connected · absent · invalid · undetermined"]
+        L["🛡️ Breach screen<br/>salted-hash lookup in the leak corpus"]
     end
-    B --> Net --> C
+    B --> SRC --> C["3 · Watch it live<br/>progress · throughput · running breakdown"]
+    C --> D["4 · Export and send<br/>safe-to-send · remove-these · full file · history"]
+    W["💳 Prepaid balance<br/>BTC / USDT top-ups"] -. "charged only for billable answers<br/>unreachable / errors refunded" .-> SRC
 ```
 
 <img src="assets/divider.svg" width="100%" height="4" alt=""/>
@@ -128,12 +192,16 @@ flowchart LR
 
 <table>
 <tr>
-<td width="50%" valign="top"><b>📉 Cut bounce rates</b><br/><sub>Remove invalid, disposable and risky addresses before a campaign goes out.</sub></td>
-<td width="50%" valign="top"><b>🛡️ Protect sender reputation</b><br/><sub>Clean lists keep your domains and SMTPs healthy.</sub></td>
+<td width="50%" valign="top"><b>📉 Cut bounce rates</b><br/><sub>Remove invalid, disposable, spam-trap and dead-server addresses before a campaign goes out — send only to the <i>safe to send</i> bucket.</sub></td>
+<td width="50%" valign="top"><b>🛡️ Protect sender reputation</b><br/><sub>Accept-all domains are flagged separately, so you choose the risk you accept and keep your domains and SMTPs healthy.</sub></td>
 </tr>
 <tr>
-<td width="50%" valign="top"><b>📞 Qualify phone data</b><br/><sub>Line type, carrier, country and live/active detection for every number.</sub></td>
-<td width="50%" valign="top"><b>🔄 Data pipelines</b><br/><sub>Bulk CSV/Excel in, clean exports out — ready to plug back into your tools.</sub></td>
+<td width="50%" valign="top"><b>📞 Reach people who pick up</b><br/><sub>Live HLR tells your dialler or SMS platform which handsets are switched on right now, which are ported and which are roaming.</sub></td>
+<td width="50%" valign="top"><b>🔐 Screen for breach exposure</b><br/><sub>See which contacts appear in leaked credential dumps before onboarding, re-engagement or KYC follow-ups.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><b>🌍 International lists</b><br/><sub>Country, ISO code, operator, MCC/MNC and E.164 formatting for every number, in 190+ countries.</sub></td>
+<td width="50%" valign="top"><b>🔄 Data pipelines</b><br/><sub>CSV/XLSX in, per-category Excel out — all your other columns preserved, ready to plug back into your ESP, CRM or dialler.</sub></td>
 </tr>
 </table>
 
@@ -141,7 +209,14 @@ flowchart LR
 
 ## 💳 Pricing
 
-> **Sign in at [drogoz.network](https://drogoz.network/accounts/login/) to see pricing.** Your exact monthly cost, in seconds — no quotes, nothing hidden.
+> **Prepaid, per record, no subscription tax.** Top up your balance with **Bitcoin or USDT** and spend it as you go. A record is charged only when the provider returns a billable answer — unreachable numbers and provider errors are refunded to your balance automatically. Balances are prepaid and **non-expiring**, and breach screening is included with every verification job.
+
+| Check | Price | What is included |
+|---|---|---|
+| 📧 **Email** | **$0.010** per email verified | MX + SMTP mailbox check · catch-all and disposable detection · spam-trap and role-account flags · per-category Excel export |
+| 📱 **Phone** | **$0.035** per number verified | Live HLR reachability · carrier, country and line type · porting and roaming detection · automatic refund when unreachable |
+
+<sub>Per-record prices as published on <a href="https://verifhub.ai/#pricing">verifhub.ai</a> (September 2026) — the balance page inside the product always shows the current rate. Create an account in under a minute: no card, no sales call — top up when you are ready to run your first batch.</sub>
 
 VerifHub AI is part of the **Traffic** bundle (−5%) — *Everything for traffic ops* — and of **All In One** (−10%) — *Every product, best price*. Take several products together and save more: [Packages & bundles](https://drogoz.network/#packages) · [Pricing & calculator](https://drogoz.network/pricing/).
 
@@ -157,7 +232,7 @@ VerifHub AI is part of the **Traffic** bundle (−5%) — *Everything for traffi
 <div align="center">
 
 **A live demonstration is 100% free on every product.**<br/>
-See VerifHub AI in action before you pay — our agent gets in touch and walks you through a live demonstration.
+See VerifHub AI in action before you pay — our agent gets in touch and walks you through a live demonstration. Or try it yourself first: One free email check and one free phone check per visitor — no signup, no card.
 
 <a href="https://t.me/drogoz"><img src="https://img.shields.io/badge/Request%20a%20free%20demonstration%20on%20Telegram-c9a855?style=for-the-badge&logo=telegram&logoColor=black" alt="Request a demonstration"/></a>
 
